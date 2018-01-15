@@ -1,0 +1,22 @@
+html {
+  // 62.5% of the default font size which is 16px is 10px.
+  // So, along the document, 1rem = 10px
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
